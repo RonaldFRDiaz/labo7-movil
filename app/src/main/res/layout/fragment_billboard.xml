@@ -137,7 +137,6 @@
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnNavCreateNewMovie"
             android:layout_width="wrap_content"
-            android:onClick="@{() -> viewmodel.createMovie()}"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/mediumGap"
             android:backgroundTint="@color/buttonColor"
