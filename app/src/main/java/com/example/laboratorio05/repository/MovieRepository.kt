@@ -1,10 +1,13 @@
-package com.example.laboratorio05.repository
+package com.example.laboratorio05.repositories
 
 import com.example.laboratorio05.data.models.MovieModel
 
+class MovieRepository(private val movies: MutableList<MovieModel>) {
 
-class MovieRepository (private val movies: MutableList<MovieModel>){
     fun getMovies() = movies
 
-    fun addMovie(newMovie: MovieModel) = movies.add(newMovie)
+    // add a new movie to the list of movies dummyData.kt
+    fun addMovies(movie: MovieModel) = movies.add(movie)
+
+
 }

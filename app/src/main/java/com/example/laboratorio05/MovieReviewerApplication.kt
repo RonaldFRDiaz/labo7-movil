@@ -4,7 +4,7 @@ import android.app.Application
 import com.example.laboratorio05.data.movies
 import com.example.laboratorio05.repository.MovieRepository
 
-class MovieRevieweAplication: Application() {
+class MovieReviewerApplication: Application() {
     val movieRepository: MovieRepository by lazy {
         MovieRepository(movies)
     }
