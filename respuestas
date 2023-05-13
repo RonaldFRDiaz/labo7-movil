@@ -1,5 +1,14 @@
-1- garantiza que la IU coincida con el estado de los datos, sin fuga de memoria y no mas control manual de ciclo.
+1- como su palabra lo dice un reciclador de vista que nos ayuda a ver en tiempo real lo que esta pasando y tambien nos ayuda a la hora de la eficiencia cuando estamos realizando un proyecto o un trabajo.
 
-2- el patron de diseño de live data esta conformado de layout y de incerteo.
-3- se debe agregar un linea de dataBinding y adentro "enabled true"
-4-organiza y colecciona datod segun la peferencia que le queres brindar y es mas flexible.
+
+2-Adapter: infla los diseños de elementos (crea instancias del contenido de un archivo de diseño) y enlaza los datos a las vistas que se muestran dentro de .RecyclerView El adaptador también notifica eventos de clic en elementos.
+
+LayoutManager – Mide y coloca las vistas de elementos dentro de y RecyclerView administra la directiva para el reciclaje de vistas.
+
+ViewHolder : busca y almacena las referencias de vista. El titular de la vista también ayuda a detectar clics de vista de elementos.
+
+ItemDecoration : permite que una aplicación agregue desplazamientos especiales de dibujo y diseño a vistas específicas para los divisores de dibujo entre elementos, resaltados y límites de agrupación visual.
+
+ItemAnimator : define las animaciones que tienen lugar durante las acciones del elemento o a medida que se realizan cambios en el adaptador.
+
+
